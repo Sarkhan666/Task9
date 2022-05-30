@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header start */
+#header{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.container{
+    padding: 0 2rem;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.navbar .logo{
+    width: 15%;
+}
+.navbar .logo img{
+    width: 60%;
+}
+.navbar .list{
+    width: 60%;
+    margin-top: 15px;
+}
+.navbar .icons{
+    width: 12%;
+}
+.navbar .icons i{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.navbar .list ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.list li a{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Marcellus', serif;
+    line-height: 23px;
+    color: white;
+    position: relative;
+}
+.navbar li a::after{
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    transition: .5s;
+    background-color: #ffffff;
+}
+.navbar li a:hover::after {
+    width: 100%;
+}
+.list li{
+    margin-left: 3rem;
+}
+.coffe{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+.coffe-text{
+    width: 75%;
+    margin-left: auto;
+}
+.coffe-text h1{
+    font-size: 8rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-family: 'Marcellus', serif;
+}
+.coffe-text img{
+    margin: 12px 0;
+}
+.coffe-text p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+   font-family: Arial, Helvetica, sans-serif;
+   width: 70%;
+   margin: auto;
+   line-height: 30px;
+   white-space: normal;
+}
+.coffe-text a{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2rem;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 23px 55px;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .4s;
+}
+.coffe-text a:hover{
+    background-color: rgb(190, 156, 121);
+    border-color: rgb(190, 156, 121);
+}
+/* header end */
+/* offer start */
+#offer{
+    padding: 5rem 0;
+    text-align: center;
+
+}
+
+.offer-text h1{
+    color: #262626;
+    font-family: Marcellus,sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.offer-text p{
+    margin: 20px 0;
+    color: #262626bd;
+    font-size: 22px;
+}
+.coffe-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0;
+}
+.coffe-product .box{
+    width: 22%;
+}
+.coffe-product .box h1{
+    font-size: 25px;
+    color: #262626;
+    margin: 8px 0;
+    font-family: 'Marcellus', serif;
+ font-weight: 400;
+}
+.coffe-product .box p{
+    font-size: 20px;
+    color: #262626bd;
+    width: 70%;
+    margin: auto;
+}
+/* offer end */
+/* herald start */
+#herald{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+.herald-text{
+    padding: 5rem 0;
+    text-align: center;
+}
+.herald-text h1{
+    color: #262626;
+    font-family: Marcellus,sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.herald-text p{
+    margin: 20px 0;
+    color: #262626bd;
+    font-size: 22px;
+    
+}
+.herald-product{
+    display: flex;
+    justify-content: space-between;
+padding: 0 5rem;
+}
+.herald-product .box{
+    width: 32%;
+}
+.herald-product .top img{
+    width: 100%;
+}
+.herald-product .box .bottom h1{
+    font-size: 25px;
+    color: #262626;
+    margin: 8px 0;
+    font-family: 'Marcellus', serif;
+ font-weight: 400;
+}
+.herald-product .box .bottom p{
+    font-size: 20px;
+    color: #262626bd;
+    margin: auto;
+}
+.herald-product .box .bottom .spandiv span{
+    color: #262626;
+    font-size: 22px;
+    position: relative;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: .4s;
+    
+}
+.herald-product .box .bottom .spandiv{
+    transition: .4s;
+    display: inline-block;
+    margin-top: 1rem;
+}
+.herald-product .box .bottom .spandiv:hover span{
+    padding-left: 5px;
+    color: #be9c79;
+    
+}
+.herald-product .box .bottom span::before{
+    content: '';
+    position: absolute;
+    top: 10px;
+    transition: .4s;
+    left: -20px;
+    width: 12px;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+}
+.herald-product .box .bottom span:hover::before{
+    background-color: #be9c79;
+    padding: 0 0 0 6px;
+}
+/* herald end */
+/* coffe background start */
+
+#coffe-background{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    background-attachment: fixed;
+    margin-top: 5rem;
+}
+#coffe-background .coffe-img{
+    width: 15%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+/* coffe background end */
+/* coffe count start */
+#coffe-count{
+padding: 6rem 0;
+
+}
+.count-main{
+    display: flex;
+    justify-content: space-between;
+
+}
+.count-main .box{
+    width: 23%;
+    text-align: center;
+}
+.count-main .box .top span{
+    font-size: 55px;
+    color: #be9c79;
+}
+.count-main .box .bottom h1{
+font-size: 25px;
+color: #262626;
+margin: 10px 0;
+font-family: Marcellus,sans-serif;
+font-weight: 400;
+}
+.count-main .box .bottom p{
+    font-size: 18px;
+    color: #262626;
+    margin: 10px 0;
+    font-family: Marcellus,sans-serif;
+    font-weight: 100;
+    }
+
+/* coffe count end */
+/* coffe shop start */
+#coffe-shop{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.shopmain{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+.shop-text{
+    padding: 5rem 0;
+    text-align: center;
+}
+.shop-text h1{
+    color: #262626;
+    font-family: Marcellus,sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.shop-text p{
+    margin: 20px 0;
+    color: #262626bd;
+    font-size: 22px;
+    
+}
+.shopmain .box{
+    width: 23%;
+}
+.shopmain .box .top img{
+    width: 100%;
+    margin: auto;
+    transition: .4s;
+}
+.shopmain .box .top{
+    position: relative;
+}
+.shopmain .box:hover .top img{
+    opacity: 0.6;
+}
+.shopmain .box:hover  .top a{
+    display: block;
+    z-index: 1;
+    opacity: 1;
+}
+.shopmain .box .top a{
+    color: #fff;
+    transition: .4s;
+    background-color: #be9c79;
+    border: 1px solid transparent;
+    padding: 1.5rem 3rem;
+    position: absolute;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 50%;
+    opacity: 0;
+    z-index: 0;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.shopmain .box .top a:hover{
+    background-color: #262626;
+    color: white;
+}
+.shopmain .box .bottom{
+   text-align: center;
+}
+.shopmain .box .bottom h1{
+    color: #262626;
+    font-family: Marcellus,sans-serif;
+    font-weight: 400;
+ }
+ .shopmain .box .bottom span{
+    color: #777;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 5px;
+ }
+/* coffe shop end*/
+
